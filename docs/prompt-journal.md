@@ -146,30 +146,34 @@ Semua yang ada di bawah judul ini adalah isianmu, dan hanya bagian ini yang dipe
 
 | Fase | Jumlah entri | Kesalahan AI dikoreksi (kode entri) | Pilar CT yang tercakup |
 |---|---|---|---|
-| PTS | `<isi>` | `<isi: misalnya J02, J03, J05>` | `<isi: anjuran 3 pilar atau lebih>` |
+| PTS | `1` | `belum ada` | `<Decomposition` |
 | PAS | `<isi>` | `<isi>` | `<isi>` |
 
 ### Fase PTS
 
 Salin blok di bawah ini untuk setiap entri. Nomori berurutan (J01, J02, dan seterusnya) dan lanjutkan nomornya di fase PAS.
 
-#### J01 · `<isi: judul singkat>`
+#### J01 · Memetakan Fitur Wajib kasus 41
 
-**Tanggal:** `<isi>`, minggu `<isi: misalnya PTS−4>`
+**Tanggal:** 21 November 2026, minggu kickoff
 
-**Tujuan:** `<isi: apa yang ingin kamu dapatkan dan untuk file mana>`
+**Tujuan:** Memecah butir Fitur Wajib kasus no. 41 menjadi FW1 sampai FW4 dan Bonus untuk README bagian 5.
 
 **Prompt:**
 
-> (tool AI: `<isi>`) `<isi: salin persis>`
+> ini untuk Panduan untuk project PTS dan PAS , jadi kalian nanti memilih 1 Siswa = 1 Use Case di https://docs.google.com/spreadsheets/d/1W6dv_5iuedsFP8qsuIQWr8M7HrCU8sJ-gEUTK7B7EUc/edit?usp=sharing , isi NIM dan Nama kalian di kolom J dan K.
 
-**Ringkasan jawaban AI:** `<isi: maksimal 5 kalimat>`
+>dosen said untuk project ini individu, karena saya ingin dari kalian semua bisa berkembang secara personal, mengingat perkembangan teknologi yang cepat, kalau ga di asah dari sekarang pasti kesulitan bersaing di dunia kerja / industry kedepannya. kalian bisa gunakan AI versi yang terbaik yang kalian punya
 
-**Penilaian saya:** `<isi: benar / salah / kurang>`
+>nah sekarang lu bantu gw untuk megerjaka uts terlebih dahulu untuk matakuliah computer vision ini bantu gw harus apa gimana sesuai dengan panduan yang dia kasih dan niatnya gw ambil nomor 41 sesuai ss gw kerjakan dengan lengkap detail dan menyelurruh tanpa adanya bug/cacad/kesalahan mikro maupun makro serta interaksinya juga jelas dan bisa membuat gw mendapatkan nilai pts dan pas sesuai dengan langkah langkah dengan sempurna tetapi tetap jaga project ini seperti buatann mahasiswa sistem informasi Muhammad Rizky Ilham nim 23120110001 Semester 7 
 
-**Koreksi & alasan:** `<isi: jawaban yang benar, bukti pemeriksaan, dan file atau commit tempat koreksi dipakai>`
+**Ringkasan jawaban AI:** AI membaca panduan PDF dan README template, lalu memecah kolom Mandatory Feature kasus 41 menjadi 4 FW memakai aturan koma di luar kurung. Kolom Bonus Challange dijadikan satu baris Bonus. AI menduga kolom D adalah Fitur Wajib dan kolom E adalah bonus, lalu meminta saya mengecek header spreadsheet.
 
-**Pilar CT:** `<isi: Decomposition / Pattern Recognition / Abstraction / Algorithm Design / Evaluation>`
+**Penilaian saya:** benar
+
+**Koreksi & alasan:** Tidak ada yang perlu dikoreksi. Saya memeriksa dua hal. Pertama, header spreadsheet: kolom D berjudul Mandatory Feature (MVP) dan kolom E berjudul Bonus Challange, sesuai dugaan AI. Kedua, saya menghitung sendiri koma di luar kurung pada teks kolom D: ada 3 koma, jadi ada 4 butir, sama dengan FW1 sampai FW4. Hasilnya dipakai di README.md bagian 5 (commit b6cd0f2).
+
+**Pilar CT:** Decomposition
 
 ### Fase PAS
 
