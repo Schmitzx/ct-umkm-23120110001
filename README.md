@@ -1,9 +1,4 @@
-# `<isi: nama UMKM>`: `<isi: judul singkat solusi, misalnya "Tiket Servis Digital">`
-
-> [!IMPORTANT]
-> **Isi saat kickoff, lalu jadikan commit pertama kamu.** Bagian yang wajib terisi di commit pertama: **1. Identitas**, **2. Kasus**, dan **3. Data lapangan** (kolom "Rencana" saja). Hapus setiap teks `<isi: ...>` seutuhnya (termasuk tanda `< >`), lalu tulis isianmu sendiri di tempatnya. Bagian lain diisi bertahap sesuai minggu di **Timeline**.
->
-> Kotak petunjuk seperti ini boleh kamu hapus setelah bagiannya terisi.
+# Kedai Mie Ayam dan Bakso: Kasir Meja Rombongan
 
 ## 1. Identitas
 
@@ -11,9 +6,9 @@ Repo ini harus **Public** dengan nama `ct-umkm-<NIM>`, supaya dosen bisa membuka
 
 | | |
 |---|---|
-| NIM | `<isi: NIM>` |
-| Nama panggilan (opsional) | `<isi: boleh dikosongkan>` |
-| Repo | `https://github.com/<isi: username>/ct-umkm-<isi: NIM>` |
+| NIM | `23120110001` |
+| Nama panggilan (opsional) | `iam` |
+| Repo | `https://github.com/<isi: Schmithzx>/ct-umkm-23120110001` |
 
 ## 2. Kasus
 
@@ -21,24 +16,24 @@ Salin dari bank studi kasus, lalu tulis ulang masalahnya dengan kalimatmu sendir
 
 | | |
 |---|---|
-| Nomor kasus | `<isi: nomor>` |
-| Jenis UMKM | `<isi: jenis UMKM dari bank kasus>` |
-| Kelompok kasus | `<isi: misalnya Antrean & status order>` |
-| Masalah utama (bank kasus) | `<isi: salin persis>` |
-| Masalah utama (kalimatku) | `<isi: satu kalimat yang menyebut siapa yang rugi dan kapan masalah itu terjadi>` |
-| Tantangan Bonus | `<isi: salin dari bank kasus>` |
+| Nomor kasus | `41` |
+| Jenis UMKM | `Kedai mie ayam dan bakso` |
+| Kelompok kasus | `Kasir/POS` |
+| Masalah utama (bank kasus) | `Rombongan pelanggan bayar sendiri-sendiri lalu pindah atau gabung meja, kasir kehilangan jejak item yang sudah dan belum dibayar` |
+| Masalah utama (kalimatku) | `Pemilik dan kasir kedai rugi saat rombongan membayar sendiri-sendiri lalu pindah atau gabung meja di jam ramai, karena item yang sudah dan belum dibayar tidak terlacak.` |
+| Tantangan Bonus | `Perkiraan jam meja kosong berikutnya dari rata-rata lama makan per jumlah orang, untuk menjawab rombongan yang menunggu` |
 
 ## 3. Data lapangan: rencana dan realisasi
 
 Pilih satu jalur: **minimal 3 narasumber** atau **minimal 20 data transaksi**. Detail dan contoh ada di [`docs/01-data-lapangan.md`](docs/01-data-lapangan.md).
 
-Jalur yang saya pilih: `<isi: narasumber / transaksi>`
+Jalur yang saya pilih: `narasumber`
 
 | Kode | Siapa (peran, tanpa nama) | Hubungan dengan kasus | Rencana (cara, minggu) | Realisasi |
 |---|---|---|---|---|
-| N1 | `<isi: misalnya pemilik usaha laundry dekat kampus>` | `<isi: UMKM sejenis kasus saya>` | `<isi: tatap muka, PTS−4>` | `<isi: belum / selesai, lihat docs/01>` |
-| N2 | `<isi: peran>` | `<isi: hubungan>` | `<isi: rencana>` | `<isi: realisasi>` |
-| N3 | `<isi: peran>` | `<isi: hubungan>` | `<isi: rencana>` | `<isi: realisasi>` |
+| N1 | `pemilik kedai mie ayam atau bakso` | `UMKM sejenis kasus saya` | `tatap muka, PTS−4>` | `belum` |
+| N2 | `kasir atau pelayan kedai` | `orang yang mencatat dan menagih di meja` | `tatap muka,PTS−4` | `belum` |
+| N3 | `pelanggan yang sering datang berombongan` | `pengalaman bayar terpisah atau pindah meja` | `tatap muka, PTS−4` | `belum` |
 
 Kalau memilih jalur transaksi, isi satu baris saja: kode `T`, sumber catatan (misalnya buku nota pemilik), rencana pengambilan, realisasi.
 
