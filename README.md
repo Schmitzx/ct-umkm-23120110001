@@ -64,16 +64,13 @@ Salin Fitur Wajib dari bank kasus **apa adanya**: setiap butir yang dipisah koma
 
 Status: **Belum** · **Sedang dikerjakan** · **Selesai** (berjalan di link live) · **Teruji** (lulus kasus uji di `docs/05-testing.md`).
 
-- [ ] **FW1** `<isi: butir pertama Fitur Wajib>` · Status: `Belum` · Kasus uji: `(diisi PAS−2)`
-- [ ] **FW2** `<isi: butir kedua>` · Status: `Belum` · Kasus uji: `(diisi PAS−2)`
-- [ ] **FW3** `<isi: butir ketiga>` · Status: `Belum` · Kasus uji: `(diisi PAS−2)`
-- [ ] **Bonus** `<isi: Tantangan Bonus, opsional>` · Status: `Belum` · Kasus uji: `(diisi PAS−2)`
+- [ ] **FW1** `Status meja (kosong, makan, bayar sebagian, lunas)` · Status: `Belum` · Kasus uji: `(diisi PAS−2)`
+- [ ] **FW2** `Pesanan per meja` · Status: `Belum` · Kasus uji: `(diisi PAS−2)`
+- [ ] **FW3** `Pisah tagihan per orang dengan pembayaran bertahap` · Status: `Belum` · Kasus uji: `(diisi PAS−2)`
+- [ ] **FW4** `Pindah atau gabung meja tanpa item hilang atau terbayar dua kali` · Status: `Belum` · Kasus uji: `(diisi PAS−2)`
+- [ ] **Bonus** `Perkiraan jam meja kosong berikutnya dari rata-rata lama makan per jumlah orang, untuk menjawab rombongan yang menunggu` · Status: `Belum` · Kasus uji: `(diisi PAS−2)`
 
 Jumlah baris FW mengikuti jumlah butir di bank kasus; tambah atau hapus baris kalau jumlahnya bukan tiga. Tantangan Bonus opsional: menambah nilai PAS sampai 10 poin, dengan nilai akhir PAS maksimal 100. Bonus hanya dihitung kalau semua FW berjalan di link live. Centang kotak `[x]` hanya kalau status sudah **Teruji**, lalu ganti `(diisi PAS−2)` dengan kode kasus ujinya, misalnya `U01, U04`.
-
-Contoh satu baris yang sudah selesai (kasus netral, bukan dari bank kasus). Hapus contoh ini setelah kamu paham formatnya:
-
-- [x] **FW1** Tiket servis bernomor · Status: `Teruji` · Kasus uji: `U01, U06`
 
 ## 6. Cara menjalankan di komputer sendiri
 
